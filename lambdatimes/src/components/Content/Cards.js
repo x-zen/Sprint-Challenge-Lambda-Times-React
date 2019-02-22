@@ -4,8 +4,8 @@ import Card from './Card';
 const Cards = props => {
   return (
     <div className="cards-container">
-    this.state.cards.map((author, img, headline) => {
-      <Card headline={headline} img={img} author={author} />
+    props.cards.map((author, img, headline) => {
+      <Card headline={card.headline} img={card.img} author={card.author} />
     });
     </div>
   )
